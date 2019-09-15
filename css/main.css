@@ -416,3 +416,24 @@ header {
 iframe, object, embed {
         max-width: 100%;
 }
+
+.map {
+}
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	list-style: none;
+	padding-top: 20px;
+	paddling-left:200px;
+	}
+ul#horizontal-list li {
+		display: inline;
+	}

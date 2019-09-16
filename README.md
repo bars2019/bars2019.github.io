@@ -1,1 +1,1 @@
-permalink: /index.html
+# norcal-control.github.io

@@ -103,8 +103,14 @@ a {
     }
 
 a,
+a:navbar,
 a:active,
 a:focus,
+
+a:navbar {
+    text-decoration : none;
+    color           : #fd367e ;
+    }
 a:active {
     text-decoration : none;
     outline         : none
@@ -149,23 +155,23 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #fd367e;
-    border-color     : #fd367e;
+    background-color : #353e55;
+    border-color     : #353e55;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
     background   : transparent;
-    color        : #fd367e;
-    border-color : #fd367e;
+    color        : #353e55;
+    border-color : #353e55;
     }
 
 /*btn-default*/
 .btn-default {
-    color            : #888888;
+    color            : #353e55;
     background-color : transparent;
-    border-color     : #888888;
+    border-color     : #353e55;
     }
 
 .btn-default:hover,
@@ -243,6 +249,7 @@ button:focus,
     margin         : 0;
     font-size      : 15px;
     text-transform : uppercase;
+	color          : #E43EE9
     }
 
 @media (max-width : 768px) {
@@ -273,7 +280,7 @@ button:focus,
     }
 
 .main-menu .nav li a {
-    color       : #555555;
+    color       : #353e55;
     font-weight : 500;
     padding     : 15px 0 15px 30px;
     }
@@ -300,8 +307,8 @@ button:focus,
         }
 
     .main-menu .nav li a {
-        padding : 5px 0;
-        color: #0e1555;
+    padding : 5px 0;
+    color: #F5A956;
         }
 
     .navbar-collapse {
@@ -346,7 +353,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/uc_berkeley.jpeg");
+    background            : url("../img/");
     /*background            : #888888 !important;*/
     background-size       : cover;
     padding               : 0;
@@ -362,7 +369,7 @@ button:focus,
     }
 
 .jumbotron .content {
-    color             : #555555;
+    color             : #EFB671;
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -377,7 +384,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #B9C0D0;
+    color       : #CD8339;
     font-weight : bold;
     }
 
@@ -390,7 +397,7 @@ button:focus,
 .jumbotron .content .event-date {
     font-size     : 24px;
     margin-bottom : 40px;
-    color: #B9C0D0;
+    color: #353e55;
     }
 
 .jumbotron .btn {
@@ -799,3 +806,22 @@ button:focus,
 
 /* Extra Things */
 body{background: #ffffff ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #ffffff;}
+
+
+
+.site-title {
+    color: #fff;
+    background: #2c3e50 url('BARS_logo.png') no-repeat;
+    background-size: 100% 100%;
+    padding: .5em .5em 4.5em .5em;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow:
+    -1.5px -1.5px 0 #000,
+    0px -1.5px 0 #000,
+    1.5px -1.5px 0 #000,
+    -1.5px 1.5px 0 #000,
+    0px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;  
+}
+

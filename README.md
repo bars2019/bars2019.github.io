@@ -1,1 +1,1 @@
-permalink: /index.html
+# bars2019.github.io

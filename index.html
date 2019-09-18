@@ -69,7 +69,7 @@ tr:nth-child(even) {
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden"><a href="#page-top"></a></li>
-                        <li><a class="page-scroll"  href="#section-intro">About</a></li>
+                        <li data_temp_dwid="1"><a class="page-scroll" href="#section-intro" data_temp_dwid="2">About</a></li>
                         <li><a class="page-scroll" href="#section-venue">Venue</a></li>
                         <!-- <li><a class="page-scroll" href="#section-speaker">Speaker</a></li> -->
                         <li><a class="page-scroll" href="#section-schedule">Schedule</a></li>
@@ -87,13 +87,17 @@ tr:nth-child(even) {
 
     </header>
 
+	
     <div class="jumbotron text-center">
+		<div class="bg"></div>
+		<div class ="backgroundpic"></div>
         <div class="content">
-            <div class="event-date">University of California, Berkeley, International House</div>
-          	 <h1 class="site-title active"></h1>
-		  <button type="button" class="btn btn-default btn-lg">Registration link coming soon</button>
+            <div class="event-date"><strong data_temp_dwid="1">Nov 15, 2019, University of California, Berkeley, International House.</strong></div>
+            <h1>Bay Area Robotics Symposium</h1>
+			<button type="button" class="btn btn-default btn-lg">Registeration Link Coming Soon</button>
+        </div>
+    </div>	
 </div>
-    </div>
     <!-- .Jumbotron-->
 	
 	
@@ -107,7 +111,7 @@ tr:nth-child(even) {
           <p class="lead">The 2019 Bay Area Robotics Symposium aims to bring together roboticists from the Bay Area. The program will consist of a mix of faculty, student and industry presentations. For more details, see the event <a class="page-scroll" href="#section-schedule">schedule</a>.<br>
           </p>
           <p class="lead"> <strong>Faculty Organizers:</strong>&nbsp;</p>
-          <p class="lead"><a class="page-scroll" href="#section-contact">Mark Mueller</a>(UC Berkeley) and <a class="page-scroll" href="#section-contact">Dorsa Sadigh</a>(Stanford)<strong><br>
+          <p class="lead"><a class="page-scroll" href="#section-contact">Mark Mueller</a> (UC Berkeley) and <a class="page-scroll" href="#section-contact">Dorsa Sadigh</a> (Stanford)<strong><br>
           </strong></p>
           <p class="lead"><strong>Sponsors:</strong></p>
 		  <p class="lead">TBA</p>
@@ -471,7 +475,6 @@ tr:nth-child(even) {
 
 
 
-
 <!--
 
     <section id="section-contact" class="section-wrapper section-contact">
@@ -498,12 +501,16 @@ tr:nth-child(even) {
 
     <!-- contact-section -->
 
+	
+	
+	
 
-    <footer class="footer">
-        <div class="copyright-section">
+    <footer class="footer" align="center">
+        <div class="copyright-section" align="center">
             <div class="container">
                 <div class="col-md-12">
-                    <div class="copytext text-center">&copy; All rights reserved</div>
+					<img src="./img/BARS_logo.png" width="910" height="120" align="center">
+                    <div class="copytext text-center" align="center">&copy; All rights reserved</div>
                 </div>
             </div>
             <!-- .container -->

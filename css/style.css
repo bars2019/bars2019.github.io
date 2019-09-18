@@ -32,7 +32,7 @@ Author: uiCookies.com
 
 # Body  (text): #888
 # Heading Color #0E1555
-# Theme Color (link color) #FD367E
+# Theme Color (link color) #C4820F
 # Mid grey (sub header) #666666
 # -------------------------------------------------------------------*/
 
@@ -94,7 +94,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #fd367e;
+    color              : #C4820F;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -109,7 +109,7 @@ a:focus,
 
 a:navbar {
     text-decoration : none;
-    color           : #fd367e ;
+    color           : #C4820F ;
     }
 a:active {
     text-decoration : none;
@@ -143,7 +143,7 @@ ul {
     margin-bottom  : 0;
     font-size      : 16px;
     border-radius  : 0;
-    font-weight    : 500;
+    font-weight    : 1000;
     border-width   : 2px;
     text-transform : uppercase;
     }
@@ -178,8 +178,8 @@ ul {
 .btn-default:focus,
 .btn-default:active:focus {
     background-color : transparent;
-    color            : #fd367e;
-    border-color     : #fd367e;
+    color            : #C4820F;
+    border-color     : #C4820F;
     }
 
 button:focus,
@@ -281,13 +281,13 @@ button:focus,
 
 .main-menu .nav li a {
     color       : #353e55;
-    font-weight : 500;
+    font-weight : 800;
     padding     : 15px 0 15px 30px;
     }
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #fd367e;
+    color      : #C4820F;
     background : transparent;
     }
 
@@ -353,13 +353,14 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/");
+    
     /*background            : #888888 !important;*/
+	background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.3)), url("../img/GoldenGate.jpg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
-    height                : 100vh;
-    min-height            : 700px;
+    height                : 90vh;
+    min-height            : 600px;
     vertical-align        : middle;
     position              : relative;
     background-attachment : fixed;
@@ -368,8 +369,24 @@ button:focus,
     overflow              : hidden;
     }
 
+/*
+.jumbotron .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../img/GoldenGate.jpg") center center;
+    opacity: .4;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+
 .jumbotron .content {
-    color             : #EFB671;
+    color             : #C4820F;
     position          : absolute;
     top               : 50%;
     left              : 0;
@@ -384,7 +401,7 @@ button:focus,
     }
 
 .jumbotron .content h1 {
-    color       : #CD8339;
+    color       : #003262;
     font-weight : bold;
     }
 
@@ -397,11 +414,11 @@ button:focus,
 .jumbotron .content .event-date {
     font-size     : 24px;
     margin-bottom : 40px;
-    color: #353e55;
+    color: #003262;
     }
 
 .jumbotron .btn {
-    margin-top : 40px;
+    margin-top : 80px;
     }
 
 @media (max-width : 600px) {
@@ -701,7 +718,7 @@ button:focus,
 .form-control:focus,
 .form-control:active {
     box-shadow   : none;
-    border-color : #fd367e;
+    border-color : #C4820F;
     }
 
 
@@ -723,7 +740,10 @@ button:focus,
     color     : #888888;
     padding   : 30px 0;
     }
-
+.footer .img {
+    width : 100;
+    height: 100;
+        }
 .footer .copyright-section .copytext {
     font-weight : 400;
     display     : block;
@@ -809,19 +829,5 @@ body{background: #ffffff ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30
 
 
 
-.site-title {
-    color: #fff;
-    background: #2c3e50 url('BARS_logo.png') no-repeat;
-    background-size: 100% 100%;
-    padding: .5em .5em 4.5em .5em;
-    margin-bottom: 0;
-    text-align: center;
-    text-shadow:
-    -1.5px -1.5px 0 #000,
-    0px -1.5px 0 #000,
-    1.5px -1.5px 0 #000,
-    -1.5px 1.5px 0 #000,
-    0px 1.5px 0 #000,
-    1.5px 1.5px 0 #000;  
-}
+
 
